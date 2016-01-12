@@ -50,10 +50,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         SharedPreferences sharedPreferences = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.clear();
-        editor.commit();
-
 
         String token = sharedPreferences.getString("token", null);
         if (token == null) {
