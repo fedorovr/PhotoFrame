@@ -36,7 +36,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DiskViewActivity"></activity>
+        <activity android:name=".DiskViewActivity" />
+        <activity
+            android:name=".SlideshowActivity"
+            android:label="@string/title_activity_slideshow"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -3,4 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="user_register">Register new user</string>
     <string name="title_activity_custom_urlscheme_handler">CustomURLSchemeHandlerActivity</string>
+
+    <string name="title_activity_slideshow">SlideshowActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
